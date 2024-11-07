@@ -5,6 +5,11 @@ function Counter() {
 
     const [count, setCount] = useState(0);
     const [name, setName] = useState();
+    const [comment, setComment] = useState();
+
+    const updateComment = (e)=>{
+      setComment(e.target.value);
+    }
     const newName = (e)=>{
         setName(e.target.value);
     }
@@ -31,6 +36,8 @@ function Counter() {
     <button className ="bg-yellow-300 text-white tex-sm rounded-md border-none p-2" onClick ={increment}>Increment</button>
     <input type="text" placeholder='Enter your name' onChange={newName}/>
     <p>updated name is: {name}</p>
+    <textarea className="" name="textarea" id="text-area" placeholder="Leave a message here" onChange={updateComment}/>
+    <p className="bg-purple-600 text-white font-sans p-3 rounded-md">{comment}</p>
     </div>
       
     </div>
