@@ -35,7 +35,7 @@ function Counter() {
     <button className="bg-blue-500 text-white text-sm rounded-md border-none p-2" onClick ={reset}>Reset</button>
     <button className ="bg-yellow-300 text-white tex-sm rounded-md border-none p-2" onClick ={increment}>Increment</button>
     <input type="text" placeholder='Enter your name' onChange={newName}/>
-    <p>updated name is: {name}</p>
+    <p className='bg-white'>updated name is: {name}</p>
     <textarea className="" name="textarea" id="text-area" placeholder="Leave a message here" onChange={updateComment}/>
     <p className="bg-purple-600 text-white font-sans p-3 rounded-md">{comment}</p>
     </div>
