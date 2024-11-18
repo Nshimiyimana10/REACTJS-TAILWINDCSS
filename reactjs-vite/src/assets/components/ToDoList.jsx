@@ -9,13 +9,15 @@ function ToDoList() {
                     document.getElementById('input-fruit').value ="";
         setFruits(prevFruits =>[...prevFruits, newFruit]);
     }
-   
+   function handleRemoveFood(index){
+        setFruits(fruits.filter((element, i) => i !==index));
+   }
 
   return (
     <div>
       <ul>
         {fruits.map((fruit, index) =>
-             <li key={index}>{fruit}</li>
+             <li key={index} onClick={() => handleRemoveFood(index)}>{fruit}</li>
         )}
       </ul>
 
