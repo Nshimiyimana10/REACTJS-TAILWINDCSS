@@ -3,6 +3,7 @@ import SayHello from './assets/components/SayHello';
 import List from './assets/components/List';
 import Counter from './assets/components/Counter';
 import ColorChange from './assets/components/ColorChange';
+import ToDoList from './assets/components/ToDoList';
 
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
     <List/>
     <Counter/>
     <ColorChange/>
+    <ToDoList />
     </>
   )
       
