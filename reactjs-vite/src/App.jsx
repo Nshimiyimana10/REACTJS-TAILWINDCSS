@@ -4,6 +4,7 @@ import List from './assets/components/List';
 import Counter from './assets/components/Counter';
 import ColorChange from './assets/components/ColorChange';
 import ToDoList from './assets/components/ToDoList';
+import CounterFn from './assets/components/CounterFn';
 
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
     <Counter/>
     <ColorChange/>
     <ToDoList />
+    <CounterFn/>
     </>
   )
       
