@@ -13,8 +13,8 @@ function CounterFn() {
     }
 
     useEffect(() =>{
-       document.title = `My count is ${count} ${color}`;
-    },[]);
+       document.title = `My count is ${count} and its title is ${color}`;
+    },[count, color]);
   return (
     <div className ="bg-gray-300 rounded-md w-60 h-72 flex flex-col justify-center items-center gap-3">
        <p>My count is {count}</p>
