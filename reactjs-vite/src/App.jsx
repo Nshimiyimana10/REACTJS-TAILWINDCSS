@@ -6,6 +6,7 @@ import ColorChange from './assets/components/ColorChange';
 import ToDoList from './assets/components/ToDoList';
 import CounterFn from './assets/components/CounterFn';
 import DigitalClock from './assets/components/DigitalClock';
+import ComponentA from './assets/components/ComponentA';
 
 
 
@@ -21,6 +22,7 @@ function App() {
     <ToDoList />
     <CounterFn/>
     <DigitalClock/>
+    <ComponentA/>
     </>
   )
       
