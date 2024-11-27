@@ -1,6 +1,6 @@
 import React from 'react';
 import {useState, createContext} from 'react';
-import ComponentB from './assets/components/ComponentB';
+import ComponentB from './ComponentB';
 
 const userContext =createContext();
 
@@ -10,7 +10,7 @@ const [user, setUser] = useState("Peter");
     <div>
         <h2>This is useContext hook</h2>
         <userContext.Provider value ={user}>
-            <ComponentB/>
+            <ComponentB user ={user}/>
         </userContext.Provider>
     </div>
   )
