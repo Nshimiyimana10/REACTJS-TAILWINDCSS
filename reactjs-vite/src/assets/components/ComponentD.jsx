@@ -14,3 +14,4 @@ function ComponentD() {
 
 export default ComponentD
 //end
+//I have to learn react and js in simple way and good way to be pro
